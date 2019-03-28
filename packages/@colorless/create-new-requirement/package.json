@@ -7,7 +7,7 @@
   "description": "新建一次新的需求",
   "main": "./lib/index.js",
   "bin": {
-    "@colorless/create-rq": "bin/bin.js"
+    "create-rq": "bin/cli.js"
   },
   "scripts": {
     "test": "mocha ./__tests__/create-new-requirement.test.js"
