@@ -1,0 +1,44 @@
+{
+  "name": "@colorless/create-new-requirement",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "新建一次新的需求",
+  "main": "./lib/index.js",
+  "bin": {
+    "@colorless/create-rq": "bin/bin.js"
+  },
+  "scripts": {
+    "test": "mocha ./__tests__/create-new-requirement.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/longshihui/command-tools.git"
+  },
+  "keywords": [
+    "lazy"
+  ],
+  "author": "longshihui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/longshihui/command-tools/issues"
+  },
+  "homepage": "https://github.com/longshihui/command-tools#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "rimraf": "^2.6.3"
+  }
+}
